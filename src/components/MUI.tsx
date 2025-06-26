@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 export const MUI = () => {
   const navigate = useNavigate();
   const handleClickHighlight = useCallback(() => {
-    navigate("highlight");
+    navigate("/mui/highlight");
   }, [navigate]);
   return (
     <Stack gap={5} padding={5}>

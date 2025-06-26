@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Top />} />
         <Route path="/mui" element={<MUI />} />
-        <Route path="/highligh" element={<HighlightTypography />} />
+        <Route path="/mui/highlight" element={<HighlightTypography />} />
       </Routes>
     </BrowserRouter>
   );
